@@ -1,0 +1,30 @@
+{
+  "buildFiles": [
+    "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/CMakeLists.txt",
+    "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/deps/libmediasoupclient/CMakeLists.txt",
+    "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/deps/libmediasoupclient/deps/libsdptransform/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "mediasoupclient_so-Debug-armeabi-v7a": {
+      "artifactName": "mediasoupclient_so",
+      "buildCommand": "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/armeabi-v7a --target mediasoupclient_so",
+      "abi": "armeabi-v7a",
+      "output": "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/build/intermediates/cmake/debug/obj/armeabi-v7a/libmediasoupclient_so.so"
+    },
+    "sdptransform-Debug-armeabi-v7a": {
+      "artifactName": "sdptransform",
+      "buildCommand": "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/armeabi-v7a --target sdptransform",
+      "abi": "armeabi-v7a",
+      "output": "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/armeabi-v7a/deps/libmediasoupclient/libsdptransform/libsdptransform.a"
+    },
+    "mediasoupclient-Debug-armeabi-v7a": {
+      "artifactName": "mediasoupclient",
+      "buildCommand": "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/armeabi-v7a --target mediasoupclient",
+      "abi": "armeabi-v7a",
+      "output": "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/armeabi-v7a/deps/libmediasoupclient/libmediasoupclient.a"
+    }
+  }
+}

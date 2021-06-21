@@ -1,0 +1,21 @@
+Executable : /Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client
+-B/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-18
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/build/intermediates/cmake/debug/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/admin/Library/Android/sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/Users/admin/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DLIBWEBRTC_INCLUDE_PATH=/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/deps/webrtc/src
+-DLIBWEBRTC_BINARY_PATH=/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/deps/webrtc/lib
+-DMEDIASOUPCLIENT_BUILD_TESTS=false
+-DSDPTRANSFORM_BUILD_TESTS=OFF
+-DSDPTRANSFORM_BUILD_READMEHELPER=OFF
+-DMEDIASOUPCLIENT_LOG_TRACE=ON
+-DMEDIASOUPCLIENT_LOG_DEV=ON
+jvmArgs : 
+

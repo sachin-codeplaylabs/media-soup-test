@@ -1,0 +1,30 @@
+{
+  "buildFiles": [
+    "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/CMakeLists.txt",
+    "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/deps/libmediasoupclient/CMakeLists.txt",
+    "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/deps/libmediasoupclient/deps/libsdptransform/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "sdptransform-Debug-x86": {
+      "artifactName": "sdptransform",
+      "buildCommand": "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/x86 --target sdptransform",
+      "abi": "x86",
+      "output": "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/x86/deps/libmediasoupclient/libsdptransform/libsdptransform.a"
+    },
+    "mediasoupclient-Debug-x86": {
+      "artifactName": "mediasoupclient",
+      "buildCommand": "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/x86 --target mediasoupclient",
+      "abi": "x86",
+      "output": "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/x86/deps/libmediasoupclient/libmediasoupclient.a"
+    },
+    "mediasoupclient_so-Debug-x86": {
+      "artifactName": "mediasoupclient_so",
+      "buildCommand": "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/x86 --target mediasoupclient_so",
+      "abi": "x86",
+      "output": "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/build/intermediates/cmake/debug/obj/x86/libmediasoupclient_so.so"
+    }
+  }
+}

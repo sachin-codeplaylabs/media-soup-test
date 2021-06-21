@@ -1,0 +1,30 @@
+{
+  "buildFiles": [
+    "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/CMakeLists.txt",
+    "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/deps/libmediasoupclient/CMakeLists.txt",
+    "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/deps/libmediasoupclient/deps/libsdptransform/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+  ],
+  "libraries": {
+    "mediasoupclient_so-Debug-x86_64": {
+      "artifactName": "mediasoupclient_so",
+      "buildCommand": "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/x86_64 --target mediasoupclient_so",
+      "abi": "x86_64",
+      "output": "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/build/intermediates/cmake/debug/obj/x86_64/libmediasoupclient_so.so"
+    },
+    "mediasoupclient-Debug-x86_64": {
+      "artifactName": "mediasoupclient",
+      "buildCommand": "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/x86_64 --target mediasoupclient",
+      "abi": "x86_64",
+      "output": "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/x86_64/deps/libmediasoupclient/libmediasoupclient.a"
+    },
+    "sdptransform-Debug-x86_64": {
+      "artifactName": "sdptransform",
+      "buildCommand": "/Users/admin/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/x86_64 --target sdptransform",
+      "abi": "x86_64",
+      "output": "/Users/admin/Downloads/mediasoup-client-android-dev/mediasoup-client/.externalNativeBuild/cmake/debug/x86_64/deps/libmediasoupclient/libsdptransform/libsdptransform.a"
+    }
+  }
+}
